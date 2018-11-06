@@ -1,0 +1,36 @@
+.view {
+  background: url("../../assets/GrpIntro.jpeg")no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: #4285F4;
+  }
+}
+
+.linkclass{
+  margin-left: 30%;
+}
+
+.imgcenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity:0;
+}
+
+.card{
+  margin-top: 10%;
+}
+
