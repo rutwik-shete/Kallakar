@@ -5,11 +5,13 @@ import {MDBBootstrapModule} from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { KnowmoreComponent } from './knowmore/knowmore.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    KnowmoreComponent
   ],
   imports: [
     BrowserModule,
