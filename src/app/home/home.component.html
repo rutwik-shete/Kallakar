@@ -8,25 +8,25 @@
       <links class="linkclass">
         <ul class="navbar-nav mr-auto" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ">
           <li class="nav-item waves-light" mdbWavesEffect>
-            <a href="#readmore" class="nav-link"><mdb-icon icon="smile-o" size="lg"></mdb-icon> ABOUT US </a>
+            <a href="#readmore" class="nav-link" (click)='closeNav()'><mdb-icon icon="smile-o" size="lg"></mdb-icon> ABOUT US </a>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link"><mdb-icon icon="diamond" size="lg"></mdb-icon> OUR TEAM </a>
+            <a class="nav-link" (click)='closeNav()'><mdb-icon icon="diamond" size="lg"></mdb-icon> OUR TEAM </a>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-            <a href="#ContactUs" class="nav-link"><mdb-icon icon="comments-o" size="lg"></mdb-icon> CONTACT US</a>
+            <a href="#ContactUs" class="nav-link" (click)='closeNav()'><mdb-icon icon="comments-o" size="lg"></mdb-icon> CONTACT US</a>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZGVAovvrE5SDgHF49ec7GezPlA05e3D17qxNw0imkW_MohQ/viewform" class="nav-link"><mdb-icon icon="pencil" size="lg"></mdb-icon> REGISTER </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZGVAovvrE5SDgHF49ec7GezPlA05e3D17qxNw0imkW_MohQ/viewform" class="nav-link" (click)='closeNav()'><mdb-icon icon="pencil" size="lg"></mdb-icon> REGISTER </a>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-              <a href="https://goo.gl/GZpXh4" class="nav-link"><mdb-icon icon="instagram" size="lg"></mdb-icon></a>
+              <a href="https://goo.gl/GZpXh4" class="nav-link" (click)='closeNav()'><mdb-icon icon="instagram" size="lg"></mdb-icon></a>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-              <a href="https://goo.gl/68y2kL" class="nav-link"><mdb-icon icon="facebook-square" size="lg"></mdb-icon></a>
+              <a href="https://goo.gl/68y2kL" class="nav-link" (click)='closeNav()'><mdb-icon icon="facebook-square" size="lg"></mdb-icon></a>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-            <a href="https://goo.gl/GUdSvW" class="nav-link"><mdb-icon icon="twitter" size="lg"></mdb-icon></a>
+            <a href="https://goo.gl/GUdSvW" class="nav-link" (click)='closeNav()'><mdb-icon icon="twitter" size="lg"></mdb-icon></a>
         </li>
         </ul>
       </links>
@@ -70,7 +70,7 @@
       <div class="description">
         <h4 class="info-title" style="margin-top: 5%" >Charity</h4>
         <p class="description">An Initiative to help our fellow citizens who couldn't afford let alone new, just clothes</p>
-        <a mdbBtn type="button" gradient="peach" size="lg" mdbWavesEffect style="color: white">Know More</a>
+        <a mdbBtn type="button" gradient="peach" size="lg" mdbWavesEffect style="color: white" [routerLink]="['/KnowMore']">Know More</a>
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@
           <div class="text-center" >
               <div class="icon icon-danger" >
                   <p><a href="https://www.google.co.in/maps/dir/''/MIT+World+Peace+University,+Paud+Road,+Kothrud,+Pune,+Maharashtra/@18.5169015,73.7799684,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2bfa3a543dc85:0xd133905419144c44!2m2!1d73.8149879!2d18.5168233" target="_blank" class="btn">
-                    <i class="fa fa-map-marker fa-1x"></i>&nbsp;S.No.3 &amp; 4, Entrepreneurship Development <br>Cell, VIIT, Kondhwa BK., Pune, <br>Maharashtra 411048.</a></p>
+                    <i class="fa fa-map-marker fa-1x"></i> Chandralok Canteen, <br> MIT College of Engineering, <br>Rambaug Colony, Kothrud, Pune, <br>Maharashtra 411038</a></p>
               </div>
         </div>
       </div>

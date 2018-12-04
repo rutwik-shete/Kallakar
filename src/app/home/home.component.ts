@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  but: any ;
+
+  constructor(private elRef: ElementRef) { }
 
   ngOnInit() {
   }
 
+  closeNav() {
+    if ( window.innerWidth <= 995 ) {
+      this.elRef.nativeElement.querySelector('.navbar-toggler').click();
+    }
+  }
 }

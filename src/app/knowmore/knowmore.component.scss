@@ -1,23 +1,26 @@
-.view {
-  background: black;
-  background-size: cover;
-  height: 100vh;
-}
-
-.navbar {
-  background-color: transparent;
-}
-
-.top-nav-collapse {
-  background-color: #4285F4;
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-      background-color: #4285F4;
-  }
-}
-
 .linkclass{
   margin-left: 30%;
 }
+
+ul{
+  padding: 0;
+  width: 1200px;
+  margin: 20px auto;
+}
+
+li{
+  display:inline;
+}
+
+.tn{
+  margin: 6px 6px;
+  border: 4px solid #eeeeee;
+  box-shadow:#555 1px 1px 8px 1px;
+  cursor: pointer;
+  width: 300px;
+}
+
+h2{
+margin-bottom: 20px;
+}
+
